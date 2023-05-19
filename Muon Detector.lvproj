@@ -118,7 +118,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2F6A805F-CD68-404C-9696-C894C17A7EBD}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MuonDetector.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Muon Detector Application/MuonDetector.exe</Property>
@@ -153,12 +153,12 @@
 				<Property Name="NIPKG_createInstaller" Type="Bool">true</Property>
 				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Feed</Property>
 				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
+				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
 </Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">true</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">muon-detector_1.0.0-1_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">muon-detector_1.0.1-0_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -166,7 +166,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">2</Property>
+				<Property Name="PKG_buildNumber" Type="Int">1</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">MuonDetectorPackage</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">2</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -222,7 +222,7 @@
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Muon Detector Application</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
 				<Property Name="PKG_synopsis" Type="Str">Muon Detector</Property>
-				<Property Name="PKG_version" Type="Str">1.0.0</Property>
+				<Property Name="PKG_version" Type="Str">1.0.1</Property>
 			</Item>
 		</Item>
 	</Item>
