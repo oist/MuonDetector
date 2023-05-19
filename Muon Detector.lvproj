@@ -19,6 +19,7 @@
 		<Item Name="Controller.lvlib" Type="Library" URL="../Controller/Controller.lvlib"/>
 		<Item Name="Counts.ctl" Type="VI" URL="../Controller/Counts.ctl"/>
 		<Item Name="Detector Actor.lvlib" Type="Library" URL="../Detector Actor/Detector Actor.lvlib"/>
+		<Item Name="File Title Dialog.vi" Type="VI" URL="../File Title Dialog.vi"/>
 		<Item Name="Launch Controller.vi" Type="VI" URL="../Launch Controller.vi"/>
 		<Item Name="Logger.lvlib" Type="Library" URL="../Logger/Logger.lvlib"/>
 		<Item Name="Process File.vi" Type="VI" URL="../Process File.vi"/>
@@ -152,7 +153,7 @@
 				<Property Name="NIPKG_createInstaller" Type="Bool">true</Property>
 				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Feed</Property>
 				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
+				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
 </Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">true</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Package Installer</Property>
