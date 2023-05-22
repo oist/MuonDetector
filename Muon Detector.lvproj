@@ -23,7 +23,9 @@
 		<Item Name="Launch Controller.vi" Type="VI" URL="../Launch Controller.vi"/>
 		<Item Name="Logger.lvlib" Type="Library" URL="../Logger/Logger.lvlib"/>
 		<Item Name="Process File.vi" Type="VI" URL="../Process File.vi"/>
+		<Item Name="Process Results File.vi" Type="VI" URL="../Process Results File.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+		<Item Name="Trial-duplicatepoints.vi" Type="VI" URL="../Trial-duplicatepoints.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
