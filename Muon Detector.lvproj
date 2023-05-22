@@ -11,6 +11,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="PostProcessing" Type="Folder">
+			<Item Name="Muon Data Post-Processing.lvlib" Type="Library" URL="../Post-Processing/Muon Data Post-Processing.lvlib"/>
+			<Item Name="Post-Processing Main.vi" Type="VI" URL="../Controller/Controller/Post-Processing Main.vi"/>
+		</Item>
+		<Item Name="Run Choice" Type="Folder">
+			<Item Name="Run Type Dialog.vi" Type="VI" URL="../Run Types/Run Type Dialog.vi"/>
+			<Item Name="Run Type.ctl" Type="VI" URL="../Run Types/Run Type.ctl"/>
+		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Arduino Detector.lvclass" Type="LVClass" URL="../Sensors/Arduino/Arduino Detector.lvclass"/>
 			<Item Name="Muon Detector.lvclass" Type="LVClass" URL="../Sensors/Detector/Muon Detector.lvclass"/>
@@ -24,6 +32,7 @@
 		<Item Name="Logger.lvlib" Type="Library" URL="../Logger/Logger.lvlib"/>
 		<Item Name="Process File.vi" Type="VI" URL="../Process File.vi"/>
 		<Item Name="Process Results File.vi" Type="VI" URL="../Process Results File.vi"/>
+		<Item Name="Select File Subset.vi" Type="VI" URL="../Post-Processing/Select File Subset.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="Trial-duplicatepoints.vi" Type="VI" URL="../Trial-duplicatepoints.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -89,7 +98,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2F6A805F-CD68-404C-9696-C894C17A7EBD}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MuonDetector.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Muon Detector Application/MuonDetector.exe</Property>
@@ -98,7 +107,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Muon Detector Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{717163A3-BE27-449E-BD68-C8654C3169B4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B36B50A8-7901-4399-ABB5-786F7F220B7D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Controller.vi</Property>
@@ -108,7 +117,11 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Controller.lvlib/Controller.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/PostProcessing/Post-Processing Main.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Okinawa Institute of Science and Technology</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Muon Detector Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">Muon Detector Application</Property>
