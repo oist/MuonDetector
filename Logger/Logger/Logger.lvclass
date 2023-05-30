@@ -35,6 +35,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 		</Item>
 	</Item>
+	<Item Name="Event to CSV String PyExcel.vi" Type="VI" URL="../Event to CSV String PyExcel.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;P!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!!Q!,28:F&lt;H1A1W^V&lt;H1!'U!$!"6%:8:J9W5A6'FN:8.U97VQ)#BN=SE!&amp;%"5!!9-5%-A6'FN:8.U97VQ!!!01!-!#5&amp;%1S"$&lt;X6O&gt;!!21!5!#E6W:7ZU)&amp;2Z='5!!%)!]1!!!!!!!!!#&amp;5VV&lt;WYA2'6U:7.U&lt;X)O&lt;(:D&lt;'&amp;T=QF&amp;&gt;G6O&gt;#ZD&gt;'Q!'E"1!!5!"Q!)!!E!#A!,"56W:7ZU!&amp;1!]!!-!!-!"!!&amp;!!1!"!!%!!1!"!!'!!1!"!!-!A!!?!!!$1A!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!)!!!!!!%!$1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
+	</Item>
 	<Item Name="Event to CSV String v2.vi" Type="VI" URL="../Event to CSV String v2.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;P!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!!Q!,28:F&lt;H1A1W^V&lt;H1!'U!$!"6%:8:J9W5A6'FN:8.U97VQ)#BN=SE!&amp;%"5!!9-5%-A6'FN:8.U97VQ!!!01!-!#5&amp;%1S"$&lt;X6O&gt;!!21!5!#E6W:7ZU)&amp;2Z='5!!%)!]1!!!!!!!!!#&amp;5VV&lt;WYA2'6U:7.U&lt;X)O&lt;(:D&lt;'&amp;T=QF&amp;&gt;G6O&gt;#ZD&gt;'Q!'E"1!!5!"Q!)!!E!#A!,"56W:7ZU!&amp;1!]!!-!!-!"!!&amp;!!1!"!!%!!1!"!!'!!1!"!!-!A!!?!!!$1A!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!)!!!!!!%!$1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
