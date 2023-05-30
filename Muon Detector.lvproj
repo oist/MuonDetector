@@ -428,12 +428,12 @@
 				<Property Name="NIPKG_createInstaller" Type="Bool">true</Property>
 				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Feed</Property>
 				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
+				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
 </Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">true</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">muon-detector_1.1.1-0_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">muon-detector_1.1.2-22_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
