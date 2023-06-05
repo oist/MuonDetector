@@ -13,6 +13,7 @@
 	<Item Name="Calculate Rates.vi" Type="VI" URL="../../Controller/Controller/Calculate Rates.vi"/>
 	<Item Name="File Entry.ctl" Type="VI" URL="../File Entry.ctl"/>
 	<Item Name="Filter by ADC Bounds.vi" Type="VI" URL="../Filter by ADC Bounds.vi"/>
+	<Item Name="Pair with Largest in Window.vi" Type="VI" URL="../Pair with Largest in Window.vi"/>
 	<Item Name="Pair with Nearest.vi" Type="VI" URL="../Pair with Nearest.vi"/>
 	<Item Name="Process Imported Data.vi" Type="VI" URL="../Process Imported Data.vi"/>
 	<Item Name="State Data.ctl" Type="VI" URL="../State Data.ctl"/>
