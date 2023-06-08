@@ -388,10 +388,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2F6A805F-CD68-404C-9696-C894C17A7EBD}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">MuonDetector.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Muon Detector Application/MuonDetector.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -399,7 +399,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Muon Detector Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FB5BF579-124D-4E32-8794-806D2C3735AB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1402867E-8A4A-4E3C-88F5-167194100729}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Controller.vi</Property>
@@ -434,7 +434,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">true</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">muon-detector_1.1.3-23_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">muon-detector_1.1.4-24_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -442,7 +442,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">false</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">23</Property>
+				<Property Name="PKG_buildNumber" Type="Int">24</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">MuonDetectorPackage</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">2</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -498,7 +498,86 @@
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Muon Detector Application</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
 				<Property Name="PKG_synopsis" Type="Str">Muon Detector</Property>
-				<Property Name="PKG_version" Type="Str">1.1.3</Property>
+				<Property Name="PKG_version" Type="Str">1.1.4</Property>
+			</Item>
+			<Item Name="MuonDetectorPackage - No Installer" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2019/resource/Framework/Providers/Builds/Package/NIPKG/NIPKG/NIPKG.lvclass</Property>
+				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2019/resource/Framework/Providers/Builds/Package/Common/UI/PackageUI.lvclass</Property>
+				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_certificates" Type="Bool">false</Property>
+				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
+				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Feed</Property>
+				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
+</Property>
+				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">true</Property>
+				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Package Installer</Property>
+				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">muon-detector_1.1.4-24_windows_all.nipkg</Property>
+				<Property Name="NIPKG_license" Type="Ref"></Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
+				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
+				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
+				<Property Name="PKG_actions.Count" Type="Int">0</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">false</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
+				<Property Name="PKG_buildNumber" Type="Int">24</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">MuonDetectorPackage - No Installer</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">2</Property>
+				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
+				<Property Name="PKG_dependencies[0].Package.Section" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].Relationship" Type="Str">Required Dependency</Property>
+				<Property Name="PKG_dependencies[0].Type" Type="Str">Package</Property>
+				<Property Name="PKG_dependencies[1].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[1].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[1].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[1].MinVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[1].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[1].NIPKG.DisplayName" Type="Str">NI-VISA Runtime</Property>
+				<Property Name="PKG_dependencies[1].Package.Name" Type="Str">ni-visa-runtime</Property>
+				<Property Name="PKG_dependencies[1].Package.Section" Type="Str">Drivers</Property>
+				<Property Name="PKG_dependencies[1].Package.Synopsis" Type="Str">Provides an API for controlling USB, TCPIP, GPIB, Serial, PXI, and other types of instruments.</Property>
+				<Property Name="PKG_dependencies[1].Relationship" Type="Str">Required Dependency</Property>
+				<Property Name="PKG_dependencies[1].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_description" Type="Str"></Property>
+				<Property Name="PKG_destinations.Count" Type="Int">1</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{8B9D9012-3280-43D0-9FDA-46FC20C32B8E}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">MuonDetectorApplication</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">root_2</Property>
+				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_displayName" Type="Str">Muon Detector Application</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_feedDescription" Type="Str"></Property>
+				<Property Name="PKG_feedName" Type="Str"></Property>
+				<Property Name="PKG_homepage" Type="Str"></Property>
+				<Property Name="PKG_hostname" Type="Str"></Property>
+				<Property Name="PKG_lvrteTracking" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
+				<Property Name="PKG_maintainer" Type="Str">Okinawa Institute of Science and Technology &lt;christian.butcher@oist.jp&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage - No Installer/Package</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="PKG_packageName" Type="Str">muon-detector</Property>
+				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
+				<Property Name="PKG_section" Type="Str">Application Software</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">1</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">MuonDetector</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path">Muon Detector</Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{ED69A0CF-1A64-4D51-BDBD-15280774241E}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{8B9D9012-3280-43D0-9FDA-46FC20C32B8E}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/Muon Detector Application</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">1</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">{8B9D9012-3280-43D0-9FDA-46FC20C32B8E}</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Muon Detector Application</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_synopsis" Type="Str">Muon Detector</Property>
+				<Property Name="PKG_version" Type="Str">1.1.4</Property>
 			</Item>
 		</Item>
 	</Item>
