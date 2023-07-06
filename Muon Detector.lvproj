@@ -429,7 +429,7 @@
 				<Property Name="NIPKG_createInstaller" Type="Bool">true</Property>
 				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Feed</Property>
 				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
+				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
 </Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">true</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Package Installer</Property>
@@ -501,8 +501,6 @@
 				<Property Name="PKG_version" Type="Str">1.1.4</Property>
 			</Item>
 			<Item Name="MuonDetectorPackage - No Installer" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2019/resource/Framework/Providers/Builds/Package/NIPKG/NIPKG/NIPKG.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2019/resource/Framework/Providers/Builds/Package/Common/UI/PackageUI.lvclass</Property>
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
 				<Property Name="NIPKG_certificates" Type="Bool">false</Property>
 				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
@@ -513,7 +511,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">true</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/MuonDetectorPackage/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">muon-detector_1.1.4-24_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">muon-detector_1.1.5-25_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -521,7 +519,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">false</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">24</Property>
+				<Property Name="PKG_buildNumber" Type="Int">25</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">MuonDetectorPackage - No Installer</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">2</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -577,7 +575,7 @@
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Muon Detector Application</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
 				<Property Name="PKG_synopsis" Type="Str">Muon Detector</Property>
-				<Property Name="PKG_version" Type="Str">1.1.4</Property>
+				<Property Name="PKG_version" Type="Str">1.1.5</Property>
 			</Item>
 		</Item>
 	</Item>
