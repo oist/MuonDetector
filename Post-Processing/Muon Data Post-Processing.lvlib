@@ -10,11 +10,13 @@
 	<Item Name="ADC Bounds.ctl" Type="VI" URL="../ADC Bounds.ctl"/>
 	<Item Name="Apply Filters.vi" Type="VI" URL="../Apply Filters.vi"/>
 	<Item Name="Calculate Histogram Data.vi" Type="VI" URL="../Calculate Histogram Data.vi"/>
+	<Item Name="Calculate Histogram from ADC Values.vi" Type="VI" URL="../Calculate Histogram from ADC Values.vi"/>
 	<Item Name="Calculate Histogram from Pairs.vi" Type="VI" URL="../Calculate Histogram from Pairs.vi"/>
 	<Item Name="Calculate Rates.vi" Type="VI" URL="../../Controller/Controller/Calculate Rates.vi"/>
 	<Item Name="Duration to String.vi" Type="VI" URL="../Duration to String.vi"/>
 	<Item Name="File Entry.ctl" Type="VI" URL="../File Entry.ctl"/>
 	<Item Name="Filter by ADC Bounds.vi" Type="VI" URL="../Filter by ADC Bounds.vi"/>
+	<Item Name="Get ADC Value from Entry.vi" Type="VI" URL="../Get ADC Value from Entry.vi"/>
 	<Item Name="Pair with Largest in Window.vi" Type="VI" URL="../Pair with Largest in Window.vi"/>
 	<Item Name="Pair with Nearest.vi" Type="VI" URL="../Pair with Nearest.vi"/>
 	<Item Name="Process Imported Data.vi" Type="VI" URL="../Process Imported Data.vi"/>
